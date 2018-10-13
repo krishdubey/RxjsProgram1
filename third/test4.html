@@ -1,0 +1,22 @@
+<html>
+  <head>
+      <title></title>
+  </head>  
+
+  <body>
+      
+      
+  <script>
+      function foo()
+      {
+          console.log('Hello');
+          return 42;
+          return 100;// it will not execute in function of javascript
+      }
+      const x = foo.call();
+      console.log(x);
+      const y = foo.call();
+      console.log(y); 
+    </script>
+    </body>
+</html>
